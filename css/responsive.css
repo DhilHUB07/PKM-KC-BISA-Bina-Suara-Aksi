@@ -1,0 +1,1897 @@
+@media (min-width: 1450px) {
+  .landing-hero {
+    min-height: 550px;
+  }
+  .hero-art {
+    height: 480px;
+  }
+}
+@media (max-width: 1100px) {
+  .site-container {
+    width: calc(100% - 48px);
+  }
+  .landing {
+    padding: 14px 14px 0;
+  }
+  .hero-copy h1 {
+    font-size: 53px;
+    letter-spacing: -2.3px;
+  }
+  .hero-art {
+    height: 410px;
+  }
+  .hero-copy > p {
+    font-size: 14px;
+  }
+  .hero-features {
+    padding: 19px;
+    gap: 14px;
+  }
+  .hero-features strong {
+    font-size: 12px;
+  }
+  .hero-features small {
+    font-size: 10px;
+  }
+  .module-copy h3 {
+    font-size: 19px;
+  }
+  .module-grid {
+    gap: 17px;
+  }
+  .module-copy {
+    padding-inline: 20px;
+  }
+  .header-inner {
+    gap: 15px;
+  }
+  .app-nav button {
+    padding: 11px 12px;
+  }
+  .header-actions {
+    gap: 7px;
+  }
+  .welcome-hero {
+    padding: 29px 32px;
+  }
+  .home-metrics > div {
+    padding: 0 17px;
+  }
+  .home-metrics strong {
+    font-size: 16px;
+  }
+  .tools-layout {
+    grid-template-columns: 250px minmax(0, 1fr);
+  }
+  .learning-layout {
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 18px;
+  }
+  .lesson-path {
+    gap: 12px;
+  }
+  .portal-shell {
+    grid-template-columns: 215px minmax(0, 1fr);
+  }
+  .portal-sidebar {
+    padding-inline: 16px;
+  }
+  .portal-main {
+    padding: 30px 25px;
+  }
+  .portal-topbar {
+    padding-inline: 25px;
+  }
+  .portal-stat {
+    padding: 17px 14px;
+    gap: 10px;
+  }
+  .portal-stat strong {
+    font-size: 23px;
+  }
+  .portal-stat div > span {
+    font-size: 9px;
+  }
+  .portal-banner > img {
+    width: 235px;
+  }
+  .portal-banner h2 {
+    font-size: 24px;
+  }
+  .portal-banner {
+    padding: 24px;
+  }
+  .panel {
+    padding: 22px;
+  }
+  .portal-dashboard-grid {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 16px;
+  }
+  .settings-levels {
+    gap: 10px;
+  }
+  .settings-levels > button,
+  .settings-levels > label {
+    padding: 14px 11px;
+  }
+}
+@media (max-width: 900px) {
+  .landing-nav {
+    gap: 18px;
+  }
+  .landing-nav > button:not(.btn) {
+    font-size: 12px;
+  }
+  .hero-copy h1 {
+    font-size: 44px;
+  }
+  .landing-hero {
+    min-height: 415px;
+    padding-block: 29px;
+    grid-template-columns: 1fr 1.1fr;
+  }
+  .hero-art {
+    height: 350px;
+  }
+  .hero-bubble {
+    font-size: 10px;
+    padding: 9px 11px;
+    right: -5px;
+    top: 20px;
+  }
+  .hero-copy > p {
+    font-size: 13px;
+  }
+  .hero-buttons {
+    gap: 17px;
+  }
+  .hero-buttons > .btn {
+    font-size: 13px;
+    padding-inline: 18px;
+  }
+  .hero-link {
+    font-size: 11px;
+  }
+  .hero-caption {
+    font-size: 10px;
+  }
+  .hero-features {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 17px;
+  }
+  .feature-symbol {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .feature-symbol > .icon {
+    width: 19px;
+    height: 19px;
+  }
+  .hero-features > div {
+    gap: 9px;
+  }
+  .hero-features small {
+    font-size: 9px;
+  }
+  .hero-features strong {
+    font-size: 11px;
+  }
+  .section-heading h2 {
+    font-size: 27px;
+  }
+  .small-sticker {
+    display: none;
+  }
+  .module-meta {
+    gap: 9px;
+    font-size: 10px;
+  }
+  .module-card-top {
+    padding: 17px 17px 0;
+  }
+  .module-visual {
+    min-height: 145px;
+    margin-inline: 13px;
+  }
+  .module-visual img {
+    height: 145px;
+  }
+  .module-copy {
+    padding: 0 18px 18px;
+  }
+  .module-copy h3 {
+    font-size: 17px;
+  }
+  .module-copy p {
+    font-size: 11px;
+    min-height: 38px;
+  }
+  .role-card {
+    padding: 23px;
+  }
+  .role-card p {
+    font-size: 12px;
+  }
+  .how-section {
+    padding: 33px;
+    gap: 35px;
+  }
+  .how-intro h2 {
+    font-size: 29px;
+  }
+  .how-intro p {
+    font-size: 13px;
+  }
+  .how-doodle {
+    display: none;
+  }
+  .home-metrics strong {
+    font-size: 14px;
+  }
+  .home-metrics > div {
+    gap: 11px;
+    padding: 0 11px;
+  }
+  .metric-symbol {
+    width: 39px;
+    height: 39px;
+    border-radius: 12px;
+  }
+  .welcome-hero h1 {
+    font-size: 34px;
+  }
+  .welcome-hero .hero-art {
+    height: 260px;
+  }
+  .welcome-hero .hero-bubble {
+    font-size: 10px;
+    padding: 8px 9px;
+  }
+  .app-nav button {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .profile-button > span:not(.avatar) {
+    display: none;
+  }
+  .guide-trigger {
+    display: none;
+  }
+  .lesson-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .lesson-path {
+    gap: 23px;
+  }
+  .learning-stage {
+    padding: 23px;
+  }
+  .tools-layout {
+    gap: 19px;
+    grid-template-columns: 230px minmax(0, 1fr);
+  }
+  .tool-stage {
+    padding: 24px;
+  }
+  .tool-stage h2 {
+    font-size: 31px;
+  }
+  .stage-actions .btn {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+  .learning-layout {
+    grid-template-columns: minmax(0, 1fr) 215px;
+  }
+  .step-sidebar {
+    padding: 20px 17px;
+  }
+  .instruction h2 {
+    font-size: 27px;
+  }
+  .setup-main {
+    gap: 15px;
+    width: calc(100% - 48px);
+  }
+  .setup-card {
+    padding: 32px 27px;
+  }
+  .setup-art .hero-art {
+    height: 260px;
+  }
+  .setup-art .hero-bubble {
+    display: none;
+  }
+  .setup-card h1 {
+    font-size: 27px;
+  }
+  .setup-card .question-title {
+    font-size: 23px;
+  }
+  .portal-sidebar {
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 88px;
+    bottom: 0;
+    width: 245px;
+    z-index: 40;
+    transform: translateX(-100%);
+    box-shadow: 10px 0 30px #21395715;
+    transition: transform 0.2s;
+  }
+  .portal-sidebar.sidebar-open {
+    transform: none;
+  }
+  .portal-sidebar > .brand {
+    display: none;
+  }
+  .portal-label {
+    margin-top: 0;
+  }
+  .portal-shell {
+    display: block;
+  }
+  .portal-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 45;
+  }
+  .portal-menu {
+    display: inline-flex;
+  }
+  .portal-main {
+    padding: 32px;
+    width: min(850px, 100%);
+  }
+  .portal-topbar > .row {
+    gap: 13px;
+  }
+  .portal-main .panel {
+    padding: 23px;
+  }
+  .portal-main .portal-banner > img {
+    width: 280px;
+  }
+  .portal-main .portal-banner h2 {
+    font-size: 27px;
+  }
+  .portal-stat div > span {
+    font-size: 10px;
+  }
+  .portal-dashboard-grid {
+    grid-template-columns: 1.35fr 1fr;
+  }
+}
+@media (max-width: 680px) {
+  html {
+    scroll-padding-top: 75px;
+  }
+  .site-container {
+    width: calc(100% - 36px);
+  }
+  .landing {
+    padding: 9px 9px 0;
+  }
+  .landing-blue {
+    border-radius: 24px;
+    padding: 17px 0 23px;
+  }
+  .landing-blue > .site-container {
+    width: calc(100% - 32px);
+  }
+  .landing-header {
+    padding: 11px 13px;
+    border-radius: 17px;
+    position: relative;
+  }
+  .brand {
+    font-size: 25px;
+  }
+  .brand-mark {
+    width: 37px;
+    height: 37px;
+    border-radius: 12px;
+  }
+  .landing-nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% + 8px);
+    background: #075eca;
+    border: 1px solid #ffffff30;
+    border-radius: 17px;
+    padding: 17px;
+    z-index: 50;
+  }
+  .landing-nav.nav-open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 7px;
+  }
+  .landing-nav > button:not(.btn) {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .landing-nav > .btn {
+    margin-left: 0;
+  }
+  .mobile-menu {
+    display: inline-flex;
+    background: #ffffff12;
+    border: 1px solid #ffffff25;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .mobile-menu:hover {
+    background: #ffffff20;
+  }
+  .landing-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 32px 9px 0;
+    gap: 0;
+  }
+  .hero-copy h1 {
+    font-size: 47px;
+    letter-spacing: -2px;
+    margin: 17px 0 19px;
+    max-width: 460px;
+    line-height: 1.17;
+  }
+  .hero-copy > p {
+    font-size: 14px;
+    max-width: 390px;
+  }
+  .hero-eyebrow {
+    font-size: 9px;
+  }
+  .hero-copy {
+    padding-bottom: 0;
+  }
+  .hero-buttons {
+    margin-top: 24px;
+    gap: 24px;
+  }
+  .hero-buttons > .btn {
+    font-size: 13px;
+    min-height: 49px;
+    border-radius: 12px;
+    padding: 13px 21px;
+  }
+  .hero-link {
+    font-size: 12px;
+  }
+  .hero-caption {
+    margin-top: 18px;
+  }
+  .hero-art {
+    height: 300px;
+    margin: 6px auto 0;
+    max-width: 420px;
+  }
+  .hero-art > img {
+    width: 105%;
+    right: -11px;
+  }
+  .hero-bubble {
+    top: 15px;
+    right: -1px;
+    font-size: 11px;
+    padding: 9px 12px;
+  }
+  .doodle-one {
+    font-size: 28px;
+    top: 30px;
+    left: 10px;
+  }
+  .doodle-two {
+    font-size: 34px;
+    bottom: 25px;
+    right: 5px;
+  }
+  .hero-features {
+    grid-template-columns: 1fr;
+    padding: 17px 19px;
+    gap: 15px;
+    margin-top: 8px;
+    border-radius: 17px;
+  }
+  .hero-features > div {
+    gap: 12px;
+  }
+  .feature-symbol {
+    width: 36px;
+    height: 36px;
+  }
+  .hero-features strong {
+    font-size: 12px;
+  }
+  .hero-features small {
+    font-size: 10px;
+    margin-top: 1px;
+  }
+  .section {
+    padding: 39px 0;
+  }
+  .section-heading {
+    margin-bottom: 22px;
+  }
+  .section-heading h2 {
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 1.35;
+  }
+  .section-heading p {
+    font-size: 12px;
+  }
+  .eyebrow {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+  }
+  .module-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .module-card {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 38% 1fr;
+    position: relative;
+    padding: 18px 20px 18px 15px;
+    gap: 0 14px;
+  }
+  .module-card-top {
+    padding: 0;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    right: 18px;
+    z-index: 2;
+  }
+  .module-index {
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 9px;
+  }
+  .module-tag {
+    font-size: 8px;
+    padding: 3px 7px;
+  }
+  .module-visual {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 19px 0 0;
+    min-height: 125px;
+    align-self: center;
+  }
+  .module-visual img {
+    height: 135px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .module-copy {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    padding: 22px 0 0;
+  }
+  .module-copy h3 {
+    font-size: 19px;
+  }
+  .module-copy p {
+    font-size: 11px;
+    margin-top: 7px;
+    min-height: 0;
+  }
+  .module-meta {
+    flex-wrap: wrap;
+    gap: 5px 11px;
+    margin-top: 11px;
+    font-size: 9px;
+  }
+  .module-action {
+    margin-top: 12px;
+    min-height: 50px;
+    padding: 11px 10px;
+    gap: 7px;
+    font-size: 15px;
+  }
+  .module-action > span {
+    width: 27px;
+    height: 27px;
+  }
+  .how-section {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 29px 26px;
+    border-radius: 22px;
+  }
+  .how-intro h2 {
+    font-size: 29px;
+    margin: 12px 0;
+  }
+  .how-intro p {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .how-steps {
+    gap: 21px;
+  }
+  .how-steps h3 {
+    font-size: 15px;
+  }
+  .how-steps p {
+    font-size: 12px;
+  }
+  .how-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 11px;
+    font-size: 11px;
+  }
+  .role-grid {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+  .role-card {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 0 15px;
+    padding: 23px 21px;
+    border-radius: 18px;
+  }
+  .role-icon {
+    grid-column: 1;
+    grid-row: 1/4;
+    width: 47px;
+    height: 47px;
+    border-radius: 14px;
+    margin: 0;
+  }
+  .role-icon .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .role-card h3 {
+    grid-column: 2;
+    font-size: 19px;
+  }
+  .role-card p {
+    grid-column: 2;
+    font-size: 11px;
+    margin: 7px 0 12px;
+    max-width: 100%;
+  }
+  .role-link {
+    grid-column: 1 / -1;
+    min-height: 50px;
+    padding: 12px 14px;
+    margin-top: 4px;
+    font-size: 16px;
+  }
+  .local-caption {
+    font-size: 10px;
+    align-items: flex-start;
+    margin-top: 23px;
+  }
+  .local-caption > .icon {
+    margin-top: 2px;
+  }
+  .footer {
+    padding: 25px 0;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .footer > span {
+    font-size: 9px;
+    max-width: 145px;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .footer p {
+    font-size: 9px;
+  }
+  .footer .brand {
+    font-size: 21px;
+  }
+  .app-header {
+    position: sticky;
+  }
+  .header-inner {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 17px 0 0;
+  }
+  .header-inner > .brand {
+    order: 1;
+  }
+  .header-actions {
+    order: 2;
+    margin-left: auto;
+    gap: 9px;
+  }
+  .header-actions .icon-button {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+  }
+  .profile-button {
+    padding-left: 0;
+  }
+  .profile-button .avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 13px;
+  }
+  .profile-button > .icon {
+    display: none;
+  }
+  .app-nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 3px;
+    border-top: 1px solid #f0f2f6;
+    margin-top: 4px;
+    padding: 7px 0;
+  }
+  .app-nav button {
+    flex: 1;
+    justify-content: center;
+    font-size: 11px;
+    padding: 10px 12px;
+    border-radius: 9px;
+  }
+  .app-nav .icon {
+    width: 17px;
+    height: 17px;
+  }
+  .app-main {
+    padding: 25px 0 35px;
+  }
+  .page-eyebrow > span:last-child {
+    display: none;
+  }
+  .page-eyebrow {
+    margin-bottom: 14px;
+  }
+  .welcome-hero {
+    grid-template-columns: 1fr;
+    position: relative;
+    min-height: 285px;
+    padding: 26px;
+    align-items: start;
+  }
+  .welcome-hero > div:first-child {
+    position: relative;
+    z-index: 2;
+  }
+  .welcome-hero h1 {
+    font-size: 31px;
+    line-height: 1.28;
+    letter-spacing: -1.1px;
+  }
+  .welcome-hero p {
+    font-size: 11px;
+    margin-bottom: 20px;
+    max-width: 200px;
+  }
+  .welcome-label {
+    font-size: 11px;
+  }
+  .welcome-hero .btn {
+    font-size: 12px;
+    min-height: 43px;
+    padding: 11px 15px;
+  }
+  .welcome-hero .hero-art {
+    position: absolute;
+    right: -14px;
+    bottom: 1px;
+    width: 200px;
+    height: 175px;
+    margin: 0;
+    opacity: 0.93;
+  }
+  .welcome-hero .hero-art > img {
+    width: 100%;
+    right: 0;
+  }
+  .welcome-hero .hero-bubble,
+  .welcome-hero .doodle {
+    display: none;
+  }
+  .home-metrics {
+    grid-template-columns: 1fr;
+    padding: 8px 19px;
+    border-radius: 17px;
+    margin-top: 19px;
+  }
+  .home-metrics > div,
+  .home-metrics > div:first-child,
+  .home-metrics > div:last-child {
+    padding: 13px 0;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    gap: 13px;
+  }
+  .home-metrics > div:last-child {
+    border: 0;
+  }
+  .home-metrics strong {
+    font-size: 15px;
+  }
+  .home-metrics strong + span {
+    font-size: 10px;
+  }
+  .home-metrics .metric-symbol {
+    width: 39px;
+    height: 39px;
+  }
+  .resume-note {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 13px 17px;
+  }
+  .resume-note > span {
+    font-size: 11px;
+  }
+  .resume-note > .text-button {
+    padding: 2px 0;
+    font-size: 11px;
+  }
+  .compact-section {
+    padding: 31px 0 25px;
+  }
+  .star-journey {
+    padding: 21px 18px;
+    border-radius: 18px;
+  }
+  .star-journey > div:first-child {
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .star-journey h3 {
+    font-size: 13px;
+    letter-spacing: -0.3px;
+  }
+  .star-journey p {
+    font-size: 10px;
+  }
+  .star-journey .metric-symbol {
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+  }
+  .star-journey .metric-symbol > .icon {
+    width: 21px;
+    height: 21px;
+  }
+  .star-journey .pill {
+    font-size: 9px;
+    white-space: nowrap;
+    padding: 5px 8px;
+  }
+  .star-track {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px 13px;
+    padding: 17px 4px 0;
+  }
+  .star-track > span {
+    height: 32px;
+  }
+  .star-track .icon {
+    width: 23px;
+    height: 23px;
+  }
+  .recent-section .rowb h3 {
+    font-size: 15px;
+  }
+  .recent-section .rowb .text-button {
+    font-size: 10px;
+  }
+  .recent-list {
+    padding-inline: 15px;
+  }
+  .recent-list > div {
+    gap: 9px;
+  }
+  .recent-list strong {
+    font-size: 11px;
+  }
+  .recent-list .pill {
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+  .recent-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+  .recent-list small {
+    font-size: 9px;
+  }
+  .setup-header {
+    padding: 23px 0;
+  }
+  .setup-header > span {
+    font-size: 10px;
+  }
+  .setup-main {
+    grid-template-columns: 1fr;
+    width: calc(100% - 36px);
+    margin: 20px auto 40px;
+  }
+  .setup-art {
+    display: none;
+  }
+  .setup-card {
+    padding: 27px 24px;
+    border-radius: 22px;
+  }
+  .setup-card h1 {
+    font-size: 27px;
+  }
+  .setup-card > p.mute {
+    font-size: 13px;
+  }
+  .setup-card .question-title {
+    font-size: 25px;
+  }
+  .setup-card form {
+    margin-top: 22px;
+  }
+  .setup-note {
+    font-size: 10px;
+  }
+  .level-option small {
+    font-size: 10px;
+  }
+  .back-link {
+    font-size: 11px;
+    margin-bottom: 19px;
+  }
+  .lesson-heading {
+    gap: 17px;
+    margin-bottom: 22px;
+  }
+  .lesson-heading h1 {
+    font-size: 27px;
+    margin-top: 7px;
+  }
+  .lesson-heading p {
+    font-size: 12px;
+  }
+  .lesson-path {
+    gap: 17px;
+    flex-wrap: wrap;
+  }
+  .lesson-path li {
+    font-size: 10px;
+    gap: 6px;
+  }
+  .lesson-path li > span {
+    width: 23px;
+    height: 23px;
+  }
+  .tools-layout {
+    grid-template-columns: 1fr;
+    gap: 19px;
+  }
+  .tools-sidebar {
+    padding: 0;
+  }
+  .tools-sidebar h3 {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .tool-list {
+    flex-direction: row;
+    gap: 8px;
+  }
+  .tool-list > button {
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 8px;
+    text-align: center;
+    border-radius: 14px;
+    align-items: center;
+    min-width: 0;
+  }
+  .tool-list .tool-art {
+    width: 53px;
+    height: 47px;
+  }
+  .tool-list small {
+    font-size: 9px;
+  }
+  .tool-list strong {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  .tool-list > button > .icon {
+    display: none;
+  }
+  .tools-sidebar .soft-note {
+    display: none;
+  }
+  .tool-stage {
+    padding: 23px 20px;
+    border-radius: 21px;
+  }
+  .tool-stage > .large-tool {
+    width: 210px;
+    height: 190px;
+    margin: 10px 0;
+  }
+  .tool-stage h2 {
+    font-size: 31px;
+  }
+  .tool-stage > p {
+    font-size: 14px;
+    margin: 9px 0 17px;
+  }
+  .stage-actions {
+    gap: 10px;
+    padding-top: 20px;
+    margin-top: 22px;
+  }
+  .stage-actions .btn {
+    font-size: 11px;
+    min-height: 47px;
+    padding: 11px 13px;
+  }
+  .stage-actions .btn > .icon {
+    width: 15px;
+    height: 15px;
+  }
+  .learning-layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .learning-stage {
+    padding: 20px 19px;
+    border-radius: 22px;
+  }
+  .learning-stage-top .pill {
+    font-size: 9px;
+    padding: 5px 9px;
+  }
+  .narrator-status {
+    font-size: 9px;
+    gap: 4px;
+  }
+  .narrator-status > .icon {
+    width: 14px;
+    height: 14px;
+  }
+  .step-scene {
+    min-height: 206px;
+    margin-top: 19px;
+    border-radius: 17px;
+  }
+  .step-scene .large-tool {
+    width: 235px;
+    height: 198px;
+  }
+  .step-big-number {
+    font-size: 61px;
+    left: 13px;
+    top: 9px;
+  }
+  .instruction {
+    margin-top: 21px;
+    min-height: 94px;
+  }
+  .instruction h2 {
+    font-size: 27px;
+    line-height: 1.4;
+  }
+  .instruction p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 10px;
+  }
+  .step-sidebar {
+    display: none;
+  }
+  .mic-bar {
+    padding: 14px 13px;
+    border-radius: 16px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-block: 18px;
+  }
+  .mic-symbol {
+    width: 37px;
+    height: 37px;
+    border-radius: 12px;
+  }
+  .mic-symbol .icon {
+    width: 21px;
+    height: 21px;
+  }
+  .mic-copy strong {
+    font-size: 11px;
+  }
+  .mic-copy span {
+    font-size: 10px;
+  }
+  .mic-bar > .btn {
+    margin-left: 47px;
+    min-height: 35px;
+    padding: 8px 12px;
+    border-radius: 9px;
+    font-size: 10px;
+  }
+  .mic-bar .waves {
+    display: none;
+  }
+  .lesson-controls {
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
+  }
+  .lesson-controls .btn {
+    min-height: 51px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+  .lesson-controls .next-step {
+    grid-column: 1/-1;
+    min-height: 55px;
+    font-size: 14px;
+  }
+  .lesson-secondary {
+    margin-top: 11px;
+    gap: 12px;
+  }
+  .lesson-secondary .text-button {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .lesson-secondary .text-button .icon {
+    width: 14px;
+    height: 14px;
+  }
+  .voice-page {
+    padding-top: 4px;
+  }
+  .voice-page h1 {
+    font-size: 28px;
+    margin: 11px 0;
+  }
+  .voice-page > p {
+    font-size: 12px;
+  }
+  .voice-illustration {
+    margin: 22px auto 32px;
+    height: 205px;
+    width: 315px;
+  }
+  .voice-illustration > img {
+    width: 315px;
+    height: 210px;
+  }
+  .voice-mic {
+    width: 55px;
+    height: 55px;
+    right: 25px;
+    bottom: -7px;
+  }
+  .voice-commands h3 {
+    font-size: 15px;
+  }
+  .voice-commands p {
+    font-size: 10px;
+  }
+  .command-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 11px;
+  }
+  .voice-command {
+    padding: 20px 13px;
+    border-radius: 15px;
+  }
+  .voice-command small {
+    font-size: 10px;
+  }
+  .voice-result {
+    padding: 22px;
+  }
+  .voice-result h2 {
+    font-size: 29px;
+  }
+  .voice-result .btn {
+    font-size: 12px;
+  }
+  .completion-page {
+    margin-top: 20px;
+  }
+  .completion-page h1 {
+    font-size: 34px;
+  }
+  .completion-subtitle {
+    font-size: 14px;
+  }
+  .completion-star {
+    width: 125px;
+    height: 125px;
+    margin-top: 20px;
+  }
+  .completion-star > .icon {
+    width: 66px;
+    height: 66px;
+  }
+  .completion-stats {
+    padding: 21px 8px;
+    margin: 25px 0;
+    gap: 0;
+  }
+  .completion-stats strong {
+    font-size: 10px;
+  }
+  .completion-stats span {
+    font-size: 9px;
+  }
+  .completion-stats .icon {
+    width: 19px;
+    height: 19px;
+  }
+  .coach-check {
+    flex-wrap: wrap;
+    padding: 19px;
+    gap: 13px;
+    border-radius: 18px;
+  }
+  .coach-icon {
+    width: 39px;
+    height: 39px;
+    border-radius: 12px;
+  }
+  .coach-check h3 {
+    font-size: 13px;
+  }
+  .coach-check p {
+    font-size: 11px;
+  }
+  .coach-check > .btn {
+    margin-left: 52px;
+    font-size: 11px;
+    min-height: 37px;
+  }
+  .completion-actions {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .completion-actions .btn {
+    font-size: 13px;
+  }
+  .dialog {
+    padding: 23px 20px;
+    border-radius: 21px;
+    max-height: calc(100dvh - 24px);
+  }
+  .dialog-header h2 {
+    font-size: 19px;
+    line-height: 1.4;
+  }
+  .dialog > p {
+    font-size: 12px;
+  }
+  .observation-list fieldset {
+    padding: 12px 9px 14px;
+  }
+  .observation-list legend {
+    font-size: 12px;
+    padding-inline: 4px;
+  }
+  .obs-choice {
+    padding: 10px 7px;
+    gap: 5px;
+    font-size: 10px;
+    border-radius: 9px;
+  }
+  .obs-choice input {
+    width: 14px;
+    height: 14px;
+  }
+  .observation-options {
+    gap: 5px;
+  }
+  .dialog-actions .btn {
+    font-size: 12px;
+    min-height: 45px;
+    padding: 11px 16px;
+  }
+  .command-confirm {
+    bottom: 15px;
+    padding: 13px 15px;
+    gap: 10px;
+    border-radius: 14px;
+  }
+  .command-confirm strong {
+    font-size: 12px;
+  }
+  .command-confirm .btn {
+    font-size: 10px;
+    min-height: 35px;
+    padding: 8px 11px;
+  }
+  .toast-region {
+    bottom: 17px;
+  }
+  .tt {
+    font-size: 11px;
+    padding: 12px 15px;
+    border-radius: 12px;
+  }
+  .portal-topbar {
+    height: 72px;
+    padding: 14px 18px;
+  }
+  .portal-topbar .breadcrumb-divider {
+    margin-inline: 8px;
+  }
+  .portal-topbar > .row {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .portal-topbar .row > span {
+    font-size: 9px;
+  }
+  .portal-topbar .header-actions {
+    gap: 7px;
+    margin-left: 0;
+  }
+  .portal-topbar .notification-button {
+    margin-right: 0;
+  }
+  .portal-topbar .avatar {
+    width: 31px;
+    height: 31px;
+    font-size: 12px;
+  }
+  .portal-user {
+    display: none;
+  }
+  .portal-sidebar {
+    top: 72px;
+    width: 235px;
+  }
+  .portal-main {
+    padding: 26px 18px;
+  }
+  .portal-page-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .portal-page-heading h1 {
+    font-size: 26px;
+  }
+  .portal-page-heading p {
+    font-size: 11px;
+  }
+  .portal-page-heading > .btn {
+    font-size: 10px;
+    min-height: 36px;
+    padding: 9px 12px;
+  }
+  .portal-banner {
+    padding: 22px;
+    position: relative;
+    min-height: 218px;
+  }
+  .portal-banner > div {
+    position: relative;
+    z-index: 2;
+  }
+  .portal-main .portal-banner h2 {
+    font-size: 23px;
+    max-width: 270px;
+  }
+  .portal-banner p {
+    font-size: 10px;
+    max-width: 215px;
+  }
+  .portal-main .portal-banner > img {
+    position: absolute;
+    right: -16px;
+    bottom: -18px;
+    width: 165px;
+    height: 150px;
+    opacity: 0.55;
+  }
+  .portal-banner .pill {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+  .portal-banner .text-button {
+    font-size: 10px;
+  }
+  .portal-stat-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 17px 0;
+  }
+  .portal-stat {
+    padding: 15px 19px;
+    gap: 15px;
+  }
+  .portal-stat > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+    flex: 1;
+  }
+  .portal-stat div > span {
+    font-size: 10px;
+    text-align: right;
+    margin: 0;
+  }
+  .portal-stat strong {
+    font-size: 22px;
+    white-space: nowrap;
+  }
+  .stat-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 11px;
+  }
+  .stat-icon > .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .portal-dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .portal-main .panel {
+    padding: 21px 19px;
+    border-radius: 18px;
+    margin-bottom: 17px;
+  }
+  .portal-dashboard-grid > .panel {
+    margin-bottom: 0;
+  }
+  .panel-heading h3 {
+    font-size: 14px;
+  }
+  .panel-heading .text-button {
+    font-size: 10px;
+  }
+  .dashboard-activity-list > button {
+    gap: 10px;
+  }
+  .dashboard-activity-list strong {
+    font-size: 11px;
+  }
+  .dashboard-activity-list .pill {
+    font-size: 8px;
+  }
+  .dashboard-activity-list small {
+    font-size: 9px;
+  }
+  .empty-state {
+    padding: 27px 6px;
+  }
+  .empty-state > h3 {
+    font-size: 14px;
+  }
+  .empty-state > p {
+    font-size: 11px;
+  }
+  .empty-state > .btn {
+    font-size: 10px;
+  }
+  .learner-overview .circle-prog {
+    margin-block: 16px;
+  }
+  .daily-tip {
+    gap: 12px;
+  }
+  .daily-tip h3 {
+    font-size: 13px;
+  }
+  .daily-tip p {
+    font-size: 10px;
+  }
+  .portal-data-note {
+    align-items: flex-start;
+    font-size: 9px;
+    line-height: 1.6;
+    max-width: 320px;
+    margin: 25px auto 0;
+  }
+  .portal-data-note > .icon {
+    margin-top: 2px;
+  }
+  .student-profile {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .large-avatar {
+    width: 62px;
+    height: 62px;
+    border-radius: 20px;
+    font-size: 28px;
+  }
+  .student-profile .circle-prog {
+    margin: 13px auto 0;
+  }
+  .student-profile h2 {
+    font-size: 24px;
+  }
+  .student-profile .sm {
+    font-size: 10px;
+  }
+  .student-profile > .sp {
+    min-width: 200px;
+  }
+  .student-profile .pill {
+    font-size: 9px;
+  }
+  .settings-levels {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .settings-levels > button,
+  .settings-levels > label {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    gap: 4px 10px;
+    padding: 13px 15px;
+    align-items: center;
+  }
+  .settings-levels .level-dot,
+  .settings-levels input {
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  .settings-levels strong {
+    margin: 0;
+    grid-column: 2;
+    font-size: 12px;
+  }
+  .settings-levels small {
+    margin: 0;
+    grid-column: 2;
+    font-size: 10px;
+  }
+  .panel-heading .pill {
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+  .two-panels {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .two-panels h3 {
+    font-size: 15px;
+  }
+  .detail-list {
+    font-size: 11px;
+  }
+  .profile-note {
+    font-size: 12px;
+  }
+  .filter-tabs {
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  .filter-tabs button {
+    font-size: 9px;
+    padding: 8px 10px;
+  }
+  .activity-heading {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .activity-heading h3 {
+    font-size: 15px;
+  }
+  .activity-heading p {
+    font-size: 10px;
+  }
+  .activity-heading > .pill {
+    margin-left: 44px;
+    font-size: 8px;
+  }
+  .activity-meta {
+    font-size: 9px;
+    gap: 10px;
+    margin-top: 17px;
+    padding-top: 14px;
+  }
+  .activity-actions {
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .activity-actions .btn {
+    font-size: 10px;
+    min-height: 37px;
+    padding: 9px 11px;
+  }
+  .activity-actions > .sm {
+    font-size: 10px;
+  }
+  .observation-summary {
+    padding: 12px;
+    margin-top: 17px;
+    gap: 11px;
+  }
+  .observation-summary > div {
+    font-size: 10px;
+  }
+  .observation-summary .pill {
+    font-size: 9px;
+    white-space: nowrap;
+  }
+  .activity-note {
+    font-size: 11px;
+    padding: 11px 12px;
+  }
+  .notebook-compose h3 {
+    font-size: 16px;
+  }
+  .notebook-compose label {
+    font-size: 11px;
+  }
+  .notebook-compose textarea {
+    font-size: 12px;
+  }
+  .compose-bottom {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .compose-bottom .btn {
+    font-size: 10px;
+    min-height: 38px;
+    padding: 9px 12px;
+  }
+  .note-card > .rowb {
+    gap: 12px;
+  }
+  .note-card > .rowb > .sm {
+    padding-left: 56px;
+    font-size: 9px;
+    margin-top: -5px;
+  }
+  .note-card > p {
+    font-size: 12px;
+    margin-top: 17px;
+  }
+  .settings-section-heading {
+    gap: 12px;
+  }
+  .settings-section-heading h3 {
+    font-size: 14px;
+  }
+  .settings-section-heading p {
+    font-size: 10px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .settings-save {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+  .settings-save p {
+    font-size: 10px;
+  }
+  .settings-save .btn {
+    font-size: 13px;
+  }
+  .reset-panel {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+  }
+  .reset-panel p {
+    font-size: 10px;
+  }
+  .reset-panel .btn {
+    font-size: 10px;
+    min-height: 37px;
+  }
+  .call-list strong {
+    font-size: 11px;
+  }
+  .call-list small {
+    font-size: 9px;
+  }
+}
+@media (max-width: 375px) {
+  .site-container {
+    width: calc(100% - 28px);
+  }
+  .hero-copy h1 {
+    font-size: 39px;
+    letter-spacing: -1.6px;
+  }
+  .hero-copy > p {
+    font-size: 12px;
+  }
+  .hero-eyebrow {
+    font-size: 8px;
+  }
+  .hero-buttons {
+    gap: 15px;
+  }
+  .hero-buttons > .btn {
+    font-size: 11px;
+    padding-inline: 17px;
+  }
+  .hero-link {
+    font-size: 10px;
+  }
+  .hero-caption {
+    font-size: 9px;
+  }
+  .hero-art {
+    height: 255px;
+  }
+  .hero-bubble {
+    font-size: 9px;
+  }
+  .module-card {
+    grid-template-columns: 34% 1fr;
+    gap: 0 10px;
+    padding: 16px 15px 16px 10px;
+  }
+  .module-copy h3 {
+    font-size: 17px;
+  }
+  .module-copy p {
+    font-size: 10px;
+  }
+  .module-visual img {
+    height: 120px;
+  }
+  .module-meta {
+    font-size: 8px;
+    gap: 5px 7px;
+  }
+  .module-card-top {
+    left: 12px;
+    right: 15px;
+  }
+  .welcome-hero {
+    padding: 23px;
+    min-height: 278px;
+  }
+  .welcome-hero h1 {
+    font-size: 28px;
+  }
+  .welcome-hero .hero-art {
+    width: 160px;
+    height: 140px;
+    bottom: 5px;
+    right: -10px;
+  }
+  .welcome-hero .btn {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+  .stage-actions .btn {
+    font-size: 10px;
+    padding: 10px 11px;
+    gap: 7px;
+  }
+  .tool-list strong {
+    font-size: 10px;
+  }
+  .lesson-path {
+    gap: 12px;
+  }
+  .lesson-path li {
+    font-size: 9px;
+  }
+  .narrator-status {
+    font-size: 8px;
+  }
+  .obs-choice {
+    font-size: 9px;
+    padding: 9px 5px;
+    gap: 4px;
+  }
+  .dialog-header h2 {
+    font-size: 17px;
+  }
+  .dialog-actions .btn {
+    font-size: 11px;
+    padding-inline: 12px;
+  }
+  .portal-topbar .row > span {
+    font-size: 8px;
+  }
+  .breadcrumb-divider {
+    display: none;
+  }
+  .portal-topbar .row > span > strong {
+    display: block;
+    margin-top: 3px;
+  }
+  .student-profile > .sp {
+    min-width: 150px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .waves i {
+    height: 14px;
+  }
+  .module-card:hover,
+  .role-card:hover,
+  .voice-command:hover,
+  .btn:hover {
+    transform: none;
+  }
+}
+@media print {
+  .app-header,
+  .portal-sidebar,
+  .portal-topbar,
+  .footer,
+  .lesson-controls,
+  .mic-bar,
+  .text-button,
+  .settings-save,
+  .reset-panel,
+  .portal-data-note {
+    display: none !important;
+  }
+  .portal-shell,
+  .portal-dashboard-grid,
+  .portal-stat-grid {
+    display: block;
+  }
+  .portal-main,
+  .app-main {
+    width: 100%;
+    padding: 0;
+  }
+  .panel {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+  .portal-banner {
+    background: white;
+  }
+  .portal-banner > img {
+    display: none;
+  }
+  body {
+    background: white;
+  }
+}
